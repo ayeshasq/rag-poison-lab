@@ -1,0 +1,29 @@
+# RAG Poisoning Demo Lab - All Free, No Credit Card Required
+# Install: pip install -r requirements.txt
+
+# LLM (Groq - free tier, 1000 req/day)
+groq>=0.8.0
+
+# Vector store - local, fully free
+chromadb>=0.5.0
+
+# Embeddings - local HuggingFace model, no API key needed
+sentence-transformers>=3.0.0
+
+# RAG framework
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-groq>=0.1.0
+
+# PDF parsing for attack 2
+pypdf>=4.0.0
+reportlab>=4.0.0
+
+# Web UI
+streamlit>=1.35.0
+
+# Utilities
+python-dotenv>=1.0.0
+rich>=13.0.0
+tabulate>=0.9.0
+colorama>=0.4.6

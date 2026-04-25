@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+data/chroma_db/
+data/poisoned_docs/*.pdf
+data/poisoned_docs/*.txt
+.venv/
+venv/
+.DS_Store
