@@ -33,7 +33,7 @@ def reset_vector_store(collection_name: str = "rag_lab"):
 def add_documents(texts: list[str], metadatas: list[dict] = None,
                   collection_name: str = "rag_lab") -> Chroma:
     """Add plain text documents to the vector store."""
-    from langchain.schema import Document
+    from langchain_core.documents import Document
     store = get_vector_store(collection_name)
     docs = [
         Document(page_content=t, metadata=metadatas[i] if metadatas else {"source": f"doc_{i}"})
